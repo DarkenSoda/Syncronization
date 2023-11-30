@@ -96,7 +96,7 @@ class Router {
         connectionCount = 0;
     }
 
-    public void connectDevice(Device device) throws InterruptedException {
+    public synchronized void connectDevice(Device device) throws InterruptedException {
         semaphore.acquire(device);
 
         if (connectionCount < routerCapacity) {

@@ -1,20 +1,20 @@
 - (C1) (Mobile) Arrived
-- (C2) (Tablet) Arrived
-- (C4) (PC) Arrived and Waiting
-- (C3) (PC) Arrived and Waiting
 - Connection 1: C1 Occupied
+- (C3) (PC) Arrived
 - Connection 1: C1 Login
-- Connection 2: C2 Occupied
-- Connection 2: C2 Login
+- Connection 2: C3 Occupied
+- Connection 2: C3 Login
+- (C4) (PC) Arrived and Waiting
+- Connection 2: C3 performs online activity
 - Connection 1: C1 performs online activity
-- Connection 2: C2 performs online activity
-- Connection 2: C2 Logged out
+- Connection 2: C3 Logged out
 - Connection 2: C4 Occupied
 - Connection 2: C4 Login
-- Connection 1: C1 Logged out
-- Connection 1: C3 Occupied
-- Connection 1: C3 Login
+- (C2) (Tablet) Arrived and Waiting
 - Connection 2: C4 performs online activity
-- Connection 1: C3 performs online activity
 - Connection 2: C4 Logged out
-- Connection 1: C3 Logged out
+- Connection 2: C2 Occupied
+- Connection 2: C2 Login
+- Connection 2: C2 performs online activity
+- Connection 2: C2 Logged out
+- Connection 1: C1 Logged out
